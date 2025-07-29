@@ -246,19 +246,13 @@ The contract tracks:
 - **Achievement Levels**: Bronze/Silver/Gold based on hours
 - **Skills Tracking**: Categorize volunteer work by skills
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions! Please see our 📞 Support for details.
 
 ## 📞 Support
 
-- 📧 Email: support@volunteerid.ro
-- 💬 Discord: [Join our community](https://discord.gg/volunteerid)
-- 🐛 Issues: [GitHub Issues](https://github.com/your-org/volunteer-id/issues)
+- 📧 Email:vonicapaul@yahoo.com
 
 ## 🏆 Acknowledgments
 
