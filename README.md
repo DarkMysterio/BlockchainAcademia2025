@@ -182,7 +182,7 @@ if (isValid) {
 | ----------------- | ------------- | -------------- | -------------- |
 | Deploy Contract   | ~4.3M         | ~$0.43         | ~$15           |
 | Register NGO      | ~120k         | ~$0.012        | ~$0.42         |
-| Issue New Badge   | ~70k          | ~$0.007        | ~$0.25         |
+| Issue New Badge   | ~50k          | ~$0.007        | ~$0.25         |
 | Update Badge      | ~290k         | ~$0.029        | ~$1.02         |
 | Verify Credential | 0 (read-only) | Free           | Free           |
 
