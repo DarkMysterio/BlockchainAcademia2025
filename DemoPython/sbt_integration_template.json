@@ -1,0 +1,70 @@
+{
+  "smart_contract": {
+    "name": "VolunteerSBT",
+    "ocean_assets": [
+      "did:op:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "did:op:fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210"
+    ],
+    "features": [
+      "verification",
+      "hours_tracking",
+      "sbt_minting"
+    ]
+  },
+  "frontend": {
+    "framework": "React",
+    "ocean_integration": "Ocean.js",
+    "wallet": "MetaMask"
+  },
+  "backend": {
+    "language": "Python",
+    "ocean_integration": "Ocean.py",
+    "database": "PostgreSQL"
+  },
+  "published_assets": [
+    {
+      "type": "free_directory",
+      "data_nft": "0x1234567890abcdef1234567890abcdef12345678",
+      "datatoken": "0xabcdef1234567890abcdef1234567890abcdef12",
+      "did": "did:op:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "metadata": {
+        "name": "Romanian NGO Volunteer Directory - Free Access",
+        "description": "Basic volunteer information for public verification",
+        "author": "Romanian NGO Association",
+        "created": "2025-07-31T22:00:31.309208",
+        "license": "CC0",
+        "tags": [
+          "volunteers",
+          "romania",
+          "ngo",
+          "verification",
+          "directory"
+        ],
+        "type": "dataset"
+      },
+      "price": "Free"
+    },
+    {
+      "type": "premium_verification",
+      "data_nft": "0x9876543210fedcba9876543210fedcba98765432",
+      "datatoken": "0xfedcba9876543210fedcba9876543210fedcba98",
+      "did": "did:op:fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+      "metadata": {
+        "name": "Romanian NGO Volunteer Verification - Premium Access",
+        "description": "Detailed volunteer verification with background checks",
+        "author": "Romanian NGO Association",
+        "created": "2025-07-31T22:00:31.309208",
+        "license": "Commercial",
+        "tags": [
+          "volunteers",
+          "romania",
+          "ngo",
+          "verification",
+          "premium"
+        ],
+        "type": "dataset"
+      },
+      "price": "1 OCEAN"
+    }
+  ]
+}

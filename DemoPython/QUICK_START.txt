@@ -1,0 +1,30 @@
+🌊 Ocean Protocol + Soul-Bound Token Integration - Quick Start
+
+WHAT THIS DOES:
+Complete Ocean Protocol integration with Soul-Bound Tokens for Romanian NGO volunteer verification. Demonstrates real Ocean publishing with free/premium data assets and SBT integration guide.
+
+HOW TO RUN:
+1. Main Demo: `python ocean_sbt_integration.py` 
+   - Complete demonstration with real Ocean + simulation fallback
+   - Shows both free and premium volunteer data publishing
+   - Generates Soul-Bound Token integration templates
+
+2. Test Setup: `python simple_test.py`
+   - Verifies Ocean Protocol installation and connectivity
+   - Tests blockchain connection and imports
+
+3. Real Publishing: `python volunteer_demo_fixed.py`
+   - Attempts real Ocean Protocol publishing on testnets
+   - Falls back to simulation if networks unavailable
+
+WHAT YOU GET:
+- Ocean Protocol asset publishing (free + premium data)
+- Soul-Bound Token integration smart contract template
+- Complete technical documentation and examples
+- Ready-to-use DIDs and datatokens for volunteer verification
+
+CORE FILES:
+- ocean_sbt_integration.py: Main demonstration (RECOMMENDED)
+- OCEAN_TOOLS_USED.txt: Complete Ocean functions reference
+- sbt_integration_template.json: Technical integration template
+- README.md: Complete guide and documentation

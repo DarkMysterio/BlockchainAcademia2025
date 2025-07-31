@@ -1,0 +1,57 @@
+{
+  "mode": "simulation",
+  "published_at": "2025-07-31T22:00:31.309208",
+  "publisher": "0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+  "network": "Simulated Ocean Network",
+  "assets": [
+    {
+      "type": "free_directory",
+      "data_nft": "0x1234567890abcdef1234567890abcdef12345678",
+      "datatoken": "0xabcdef1234567890abcdef1234567890abcdef12",
+      "did": "did:op:1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "metadata": {
+        "name": "Romanian NGO Volunteer Directory - Free Access",
+        "description": "Basic volunteer information for public verification",
+        "author": "Romanian NGO Association",
+        "created": "2025-07-31T22:00:31.309208",
+        "license": "CC0",
+        "tags": [
+          "volunteers",
+          "romania",
+          "ngo",
+          "verification",
+          "directory"
+        ],
+        "type": "dataset"
+      },
+      "price": "Free"
+    },
+    {
+      "type": "premium_verification",
+      "data_nft": "0x9876543210fedcba9876543210fedcba98765432",
+      "datatoken": "0xfedcba9876543210fedcba9876543210fedcba98",
+      "did": "did:op:fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+      "metadata": {
+        "name": "Romanian NGO Volunteer Verification - Premium Access",
+        "description": "Detailed volunteer verification with background checks",
+        "author": "Romanian NGO Association",
+        "created": "2025-07-31T22:00:31.309208",
+        "license": "Commercial",
+        "tags": [
+          "volunteers",
+          "romania",
+          "ngo",
+          "verification",
+          "premium"
+        ],
+        "type": "dataset"
+      },
+      "price": "1 OCEAN"
+    }
+  ],
+  "integration_notes": {
+    "soul_bound_token": "Use DIDs for verification in smart contract",
+    "access_control": "Implement datatoken gating for premium features",
+    "metadata": "Store asset metadata for UI display"
+  }
+}
