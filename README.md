@@ -257,9 +257,7 @@ We welcome contributions! Please see our 📞 Support for details.
 ## 🏆 Acknowledgments
 
 - Built for Blockchain Academia Hackathon
-- Inspired by Estonia's e-Residency program
 - Powered by OpenZeppelin contracts
-- IPFS storage by Protocol Labs
 
 ---
 
